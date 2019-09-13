@@ -1,0 +1,18 @@
+{
+  "name": "typescript-bin-template",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "main": "ts-node ./bin/index.ts",
+    "test": "mocha --recursive -r ts-node/register test/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "latest",
+    "@types/mocha": "latest",
+    "@types/node": "latest",
+    "chai": "latest",
+    "mocha": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
+}
